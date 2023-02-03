@@ -70,3 +70,12 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+gem "sass", "~> 3.7"
+
+gem "listen", "~> 3.8"
+
+gem "spring", "~> 4.1"
+gem "spring-watcher-listen", "~> 2.1"
+
+gem "sass-rails", "~> 6.0"

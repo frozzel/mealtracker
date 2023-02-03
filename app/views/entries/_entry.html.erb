@@ -29,12 +29,14 @@
     <p class="italic">Logged at: <%= time_ago_in_words(entry.created_at) %> ago</p>
         
     </p>
-    </div>
   </div>
-  <footer class="card-footer">
-    <a href="<%= entry_path(entry) %>" class="card-footer-item">Show</a>
-    <a href="<%= edit_entry_path(entry) %>" class="card-footer-item">Edit</a>
-    
-  </footer>
+ 
 
+</div>
+    <div class="button m-3 is-warning">
+        <a href="<%= entry_path(entry) %>" class="has-text-black">Show</a>
+    </div>
+    <div class="button m-3 is-warning">
+         <a href="<%= edit_entry_path(entry) %>" class="has-text-black">Edit</a>
+    </div>
 </div>

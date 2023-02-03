@@ -1,19 +1,22 @@
-<section class="hero is-link is-small">
+<section class="hero   is-info is-small">
   <!-- Hero head: will stick at the top -->
   <div class="hero-head">
-    <header class="navbar">
+    <header class="navbar ">
       <div class="container">
         <div class="navbar-brand">
-          <a class="navbar-item">
-            <img src="https://bulma.io/images/bulma-type-white.png" alt="Logo">
-          </a>
+          <%= link_to root_path, class: "navbar-item" do %>
+            <strong class="has-text-weight-bold is-size-2 ml-4">🥘 Meal Tracker</strong>
+          <% end %>
+
+
+
           <span class="navbar-burger" data-target="navbarMenuHeroC">
             <span></span>
             <span></span>
             <span></span>
           </span>
         </div>
-        <div id="navbarMenuHeroA" class="navbar-menu">
+        <div id="navbarMenuHeroC" class="navbar-menu">
           <div class="navbar-end">
            <span class='navbar-item' >
            <%= link_to 'Crate new entry', new_entry_path, class: "button is-success"  %>
@@ -30,7 +33,7 @@
   <!-- Hero content: will be in the middle -->
   <div class="hero-body">
     <div class="container has-text-centered">
-      <h1 class="title">
+      <h1 class="title is-capitalized">
      <% if content_for(:title)%>
         <%= yield :title %>
       <% else %>

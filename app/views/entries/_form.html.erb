@@ -1,3 +1,5 @@
+<div class="columns  is-one-quarter mt-7  is-right   " >
+<div class="card is-one-quarter  p-6">
 <%= form_with(model: entry) do |form| %>
   <% if entry.errors.any? %>
     <div style="color: red">
@@ -37,6 +39,8 @@
   </div>
 
   <div>
-    <%= form.submit %>
+    <%= form.submit class: "button is-success mt-4" %>
   </div>
 <% end %>
+</div>
+</div>

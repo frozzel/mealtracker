@@ -1,7 +1,11 @@
 <div class="card" id="<%= dom_id entry %>">
   
-    <header class="card-header "><strong>Meal Type:</strong>
-    <%= entry.meal_type %></header>
+    <header class="card-header hero is-info">
+      <p class="card-header-title has-text-white">
+        <strong class="is-capitalized" >
+         <%= entry.meal_type %></strong>
+      </p>
+    </header>
  
 
  <div class=" card-content">
@@ -22,10 +26,15 @@
         <strong>Fats:</strong>
         <%= entry.fats %>
     </p>
-    <p class="italic">Logged at: <%= time_ago_in_words(entry.created_at) %></p>
+    <p class="italic">Logged at: <%= time_ago_in_words(entry.created_at) %> ago</p>
         
     </p>
     </div>
   </div>
+  <footer class="card-footer">
+    <a href="<%= entry_path(entry) %>" class="card-footer-item">Show</a>
+    <a href="<%= edit_entry_path(entry) %>" class="card-footer-item">Edit</a>
+    
+  </footer>
 
 </div>

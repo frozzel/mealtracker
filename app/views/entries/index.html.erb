@@ -17,10 +17,9 @@
   <% end %>
   
 </div>
-<div class="columns is-centered">
-   <%= link_to 'Crate new entry', new_entry_path, class: "button is-success"  %>
+<div class="columns mx-1 is-centered">
+   <%= link_to 'Crate new entry', new_entry_path, class: "button is-success is-outlined is-centered m-1"  %>
+   <%= link_to "View All Entries", archive_index_path, class: "button is-info is-outlined is-centered m-1"%>
 </div>
 
-<div class="columns is-centered mt-6">
-  <%= link_to "View All Entries", archive_index_path, class: "button is-info is-outlined is-centered"%>
-</div>
+

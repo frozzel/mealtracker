@@ -26,17 +26,17 @@
         <strong>Fats:</strong>
         <%= entry.fats %>
     </p>
-    <p class="italic">Logged at: <%= time_ago_in_words(entry.created_at) %> ago</p>
+    <p class="is-size-7 italic has-text-info">Logged at: <%= time_ago_in_words(entry.created_at) %> ago</p>
         
     </p>
   </div>
  
 
 </div>
-    <div class="button m-3 is-warning">
+    <div class="button m-3 is-warning is-normal is-responsive">
         <a href="<%= entry_path(entry) %>" class="has-text-black">Show</a>
     </div>
-    <div class="button m-3 is-warning">
+    <div class="button m-3 is-warning is-normal is-responsive">
          <a href="<%= edit_entry_path(entry) %>" class="has-text-black">Edit</a>
     </div>
 </div>

@@ -7,18 +7,11 @@
           <%= link_to root_path, class: "navbar-item" do %>
             <strong class="has-text-weight-bold is-size-2 ml-4">🥘 Meal Tracker</strong>
           <% end %>
-
-
-
-          <span class="navbar-burger" data-target="navbarMenuHeroC">
-            <span></span>
-            <span></span>
-            <span></span>
-          </span>
         </div>
         <div id="navbarMenuHeroC" class="navbar-menu">
           <div class="navbar-end">
            <span class='navbar-item' >
+           <%= link_to 'Crate new entry', new_entry_path, class: "button is-success"  %>
                 
            
             
@@ -30,9 +23,9 @@
   </div>
 
   <!-- Hero content: will be in the middle -->
-  <div class="hero-body">
+  <div class="hero-body has-background-white ">
     <div class="container has-text-centered">
-      <h1 class="title is-capitalized">
+     <h1 class="title is-capitalized has-text-info-dark">
      <% if content_for(:title)%>
         <%= yield :title %>
       <% else %>

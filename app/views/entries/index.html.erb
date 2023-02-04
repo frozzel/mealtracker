@@ -1,7 +1,16 @@
 <% content_for :title do %>
   Meal Tracker &ndash;  <%= DateTime.now.to_formatted_s(:nice_date) %>
 <% end %>
+ <div class="columns mt-2 is-centered has-text-centered  ">
+     <h1 class="title is-capitalized has-text-dark column is-centered has-text-centered">
+     <% if content_for(:title)%>
+        <%= yield :title %>
+      <% else %>
+        Meal Tracker
+        <% end %>
 
+      </h1>
+    </div>
 
 
 <div class="columns mt-6 is-centered" id="entries">
@@ -18,8 +27,8 @@
   
 </div>
 <div class="columns mx-1 is-centered">
-   <%= link_to 'Crate new entry', new_entry_path, class: "button is-success is-outlined is-centered m-1"  %>
-   <%= link_to "View All Entries", archive_index_path, class: "button is-info is-outlined is-centered m-1"%>
+   <%= link_to 'Crate new entry', new_entry_path, class: "button is-success  is-centered m-1"  %>
+   <%= link_to "View All Entries", archive_index_path, class: "button is-info  is-centered m-1"%>
 </div>
 
 

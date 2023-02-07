@@ -1,5 +1,5 @@
    <div>
-<a href=""><img src="https://github.com/frozzel/narcissistSocial/blob/007c7688e0d778a3d49000ac61efbdb9b7141811/app/assets/images/logo.png" align="center" height="" width="100%" ></a></div>
+<a href=""><img src="https://github.com/frozzel/mealtracker/blob/25f2d8ab221b37e0160f016683a149d6cf60cea3/smlogo.png" align="center" height="" width="100%" ></a></div>
    
    # Meal Tracker   
    [![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/frozzel/mealtracker) [![Heroku](https://img.shields.io/badge/Heroku-430098.svg?style=for-the-badge&logo=Heroku&logoColor=white)](https://meal-tracker.herokuapp.com/)
@@ -15,8 +15,8 @@
 
   ## Screen Shots
 
-![Screen Shots](https://github.com/frozzel/narcissistSocial/blob/007c7688e0d778a3d49000ac61efbdb9b7141811/s1.png)
-![Screen Shots2](https://github.com/frozzel/narcissistSocial/blob/007c7688e0d778a3d49000ac61efbdb9b7141811/s2.png)
+![Screen Shots](https://github.com/frozzel/mealtracker/blob/25f2d8ab221b37e0160f016683a149d6cf60cea3/sm1.png)
+![Screen Shots2](https://github.com/frozzel/mealtracker/blob/25f2d8ab221b37e0160f016683a149d6cf60cea3/Sm2.png)
 
 
   
